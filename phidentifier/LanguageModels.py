@@ -1,6 +1,6 @@
 import os
 from encodings.aliases import aliases
-from LanguageModels import Markov
+from . import Markov
 
 model_cebuano = Markov.MarkovChain(open(os.path.join('phidentifier/data/processed', 'cebuano.txt'), encoding='utf8'),'Cebuano')
 model_kapampangan = Markov.MarkovChain(open(os.path.join('phidentifier/data/processed', 'kapampangan.txt'), encoding='utf8'),'Kapampangan')
