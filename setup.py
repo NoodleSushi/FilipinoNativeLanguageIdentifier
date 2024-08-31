@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='Filipino Native Language Identifier',
-    version='1.0',
+    version='1.1',
     packages=['phidentifier'],
     include_package_data=True,
     url='',
