@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='Filipino Native Language Identifier',
     version='1.0',
-    packages=['phidentifier'],
+    packages=['phidentifier', 'phidentifier.LanguageModels'],
     url='',
     license='',
     author='Red Periabras',
