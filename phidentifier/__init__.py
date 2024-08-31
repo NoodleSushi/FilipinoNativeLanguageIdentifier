@@ -1,1 +1,2 @@
-from phidentifier import models, input
+from phidentifier import input
+from phidentifier.LanguageModels import models
