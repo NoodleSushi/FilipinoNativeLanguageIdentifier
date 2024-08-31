@@ -162,9 +162,9 @@ class MarkovChain(object):
         sigma_nij = sum(trans)
         value = sigma_ni + sigma_nij
 
-        print("\nNumber of Words: ", len(model_input.words))
-        print("Model:",self.id)
-        print("Inits:",sigma_ni)
-        print("Pairs:",sigma_nij)
-        print(self.id, "Evaluation:",value)
+        # print("\nNumber of Words: ", len(model_input.words))
+        # print("Model:",self.id)
+        # print("Inits:",sigma_ni)
+        # print("Pairs:",sigma_nij)
+        # print(self.id, "Evaluation:",value)
         return value
